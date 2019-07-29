@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="cover2.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <h1 class="navbar-brand" href="#">NIT Technologies Pvt.Ltd.</h1>
+            <div class="inner">
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="index.html">HOME</a>
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                    <a class="nav-link" href="#">SERVICES</a>
+                    <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </nav>
+            </div>
+        </div>
+    </nav>
+    <p class="service">SERVICES</p>
+    <button class="collapsible">DATA</button>
+    <div class="content">
+        <ul class="expand">
+            <li>Big Data Processing</li>
+            <li>Machine Learning</li>
+            <li>Data visualization</li>
+        </ul>
+    </div>
+    <button class="collapsible">CLOUD</button>
+    <div class="content">
+        <ul class="expand">
+            <li>AWS</li>
+            <li>Google Cloud</li>
+            <li>Microsoft Azure</li>
+        </ul>
+    </div>
+    <button class="collapsible">MOBILE</button>
+    <div class="content">
+        <ul class="expand">
+            <li>iOS</li>
+            <li>Android</li>
+            <li>Cross Platform</li>
+        </ul>
+    </div>
+    <button class="collapsible">WEB</button>
+    <div class="content">
+        <ul class="expand">
+            <li>Golang</li>
+            <li>React</li>
+            <li>Python</li>
+        </ul>
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+body,
+html{
+    height:100%;
+}
+.container{
+    font-size: 30px;
+}
+
+.nav-link{
+    
+    display: block;
+    font-size: 24px;
+    color: #ffffff;
+}
+body{
+    background-color:#f8f9fa;
+    background-image: url("it2.jpg");
+}
+.navbar-brand{
+    display: block;
+    font-size: 32px;
+    color: #f8f9fa;
+}
+/*
+.inner{
+    text-align: center;
+}
+*/
+.bg-primary {
+    background-color: #007bff!important;
+}
+h2 {
+    font-size: 2rem;
+    margin-right: 49px;
+    color:#1b03e6;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+p {
+    
+    margin-right: 8%;
+    /* background-color: lightgrey; */
+    /* width: 564px; */
+    /* border: 15px solid green; */
+    padding: 50px;
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 48px;
+}
+.collapsible {
+    background-color:transparent;
+    color:blue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 34px;
+}
+.expand
+{
+    font-size: 20px;
+}
+
+/*.active, .collapsible:hover {
+    background-color: #555;
+}*/
+
+.content {
+    padding: 0 18px;
+    max-height:0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.service{
+    margin: 0 !important;
+    color: brown;
+    text-align: center;
+}
+ul,li{
+    list-style-type: none;
+    font-size: 28px !important;
+    color: brown;
+    font-weight : bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*contact*/
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 537px;
+    margin-left: 70px;
+    width: 565px;
+}
+.details{
+    font-size:25px;
+    color: black;
+    margin-right: 537px;
+    margin-left: 87px;
+}
+.form-control{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.col{
+    margin-bottom: 3%;
+}
+.contact{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+}
+.form-row{
+    margin-right: 537px;
+    margin-left: 70px;
+    width: 565px;
+}
+.form-group {
+    margin-bottom: 1rem;
+    width: 537px;
+    margin-left: 70px;
+    
+}
+.contact-btn
+{
+    
+    margin-left: 44%;
+    font-size: 22px;
+}
+.col-6
+{
+    margin-left: 61%;
+    margin-top: -23%;
+    margin-bottom: 41%;
+    font-size: 27px;
+}
+
+.det{
+    list-style-type: none;
+    font-size: 28px !important;
+    color:black;
+    font-weight : normal;
+    font-family:sans-serif;
+    margin-top: 4%;
+}
+
+p.mailus{
+    
+    margin-left: 61%;
+    font-size: 27px;
+    margin-top: -8%;
+    margin-left: -11%;
+    
+}
+h3{
+    color: blue;
+    font-size: 20px;
+    margin-left: 7%;
+    margin-top: -12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 980px){
+    .navbar-brand{
+        font-size: 4rem !important;
+    }
+    h1{
+        font-size: 6.5rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    .btn-secondary {
+        font-size: 2.25rem;
+    }
+    body{
+        background-size: 229rem;
+    }
+    .nav-link{
+        font-size: 2.5rem !important;
+    }
+    p{
+        margin-left: 0%;
+        margin-top: 15%;
+        font-size: 49px;
+        width: 100%;
+    }
+    /* contact*/
+    .col-6{
+        margin-top: 4%;
+        margin-left: 8%;
+        margin-right: 234%;
+        font-size: 51px;
+    }
+    
+    
+    h3 {
+        color: blue;
+        font-size: 40px;
+        margin-left: 11%;
+        margin-top: -14%;
+    }
+    p.mailus {
+        margin-left: 61%;
+        font-size: 45px;
+        margin-top: -12%;
+        margin-left: -11%;
+    }
+    .contact {
+        font-size: 59px;
+        color: brown;
+        text-align: center;
+        margin-top: 1%;
+    }
+    details {
+        font-size: 31px;
+        color: black;
+        margin-right: 537px;
+        margin-left: 87px;
+    }
+    .form-control {
+        margin-left: 5%;
+        margin-bottom: 3%;
+        font-size: 27px;
+    }
+    
+    
+    
+    
+    
+    
+}

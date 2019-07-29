@@ -1,0 +1,143 @@
+body,
+html{
+    height:100%;
+}
+.container{
+    font-size: 30px;
+}
+
+.nav-link{
+    
+    display: block;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: -1%;
+}
+body{
+    background-color:#f8f9fa;
+    background-image: url("bg.jpg");
+}
+.navbar-brand{
+    display: block;
+    font-size: 32px;
+    color: #f8f9fa;
+    margin: 1rem;
+}
+/*
+.inner{
+    text-align: center;
+}
+*/
+.bg-primary {
+    background-color: #007bff!important;
+}
+h2 {
+    font-size: 2rem;
+    margin-right: 49px;
+    color:#1b03e6;
+}
+.service {
+    margin-right: 8%;
+    /* background-color: lightgrey; */
+    /* width: 564px; */
+    /* border: 15px solid green; */
+    padding: 50px;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: 40px;
+    color: brown;
+}
+
+.card{
+    width: 24rem;
+    margin-left: 8%;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.img-rounded{
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 980px){
+    .navbar-brand{
+        font-size: 4rem !important;
+    }
+    h1{
+        font-size: 6.5rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    .btn-secondary {
+        font-size: 2.25rem;
+    }
+    body{
+        background-size: 229rem;
+    }
+    .nav-link{
+        font-size: 2.5rem !important;
+    }
+    p{
+        margin-left: 0%;
+        margin-top: 15%;
+        font-size: 49px;
+        width: 100%;
+    }
+    /* contact*/
+    .col-6{
+        margin-top: 4%;
+        margin-left: 8%;
+        margin-right: 234%;
+        font-size: 51px;
+    }
+    
+    
+    /* h3 {
+        color: blue;
+        font-size: 40px;
+        margin-left: 11%;
+        margin-top: -14%;
+    }
+    p.mailus {
+        margin-left: 61%;
+        font-size: 45px;
+        margin-top: -12%;
+        margin-left: -11%;
+    }
+    .contact {
+        font-size: 59px;
+        color: brown;
+        text-align: center;
+        margin-top: 1%;
+    }
+    details {
+        font-size: 31px;
+        color: black;
+        margin-right: 537px;
+        margin-left: 87px;
+    }
+    .form-control {
+        margin-left: 5%;
+        margin-bottom: 3%;
+        font-size: 27px;
+    }*/
+    .card-deck{
+        flex-flow: column !important;
+        width: 100% !important;
+    }
+    .card{
+        width: 100% !important;
+        margin-left: 17% !important;
+        margin-bottom: 2% !important;
+    }
+    .navbar-brand {
+        font-size: 4rem !important;
+    }   
+}
